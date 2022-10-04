@@ -7,6 +7,12 @@ We tested the code on
 - tensorflow 1.10
 - python 3
 
+export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.11.0-cp27-none-linux_x86_64.whl
+pip install --ignore-installed --upgrade $TF_BINARY_URL
+
+export TF_BINARY_URL=tensorflow-1.10.1-cp36-cp36m-macosx_10_11_x86_64.whl
+pip install --ignore-installed --upgrade $TF_BINARY_URL
+
 Other dependencies:
 - numpy
 - tqdm
